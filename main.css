@@ -1,0 +1,47 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background-color: #333333
+}
+.container {
+    width: 300px;
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 250px;
+    border: 1px solid black;
+    border-radius: 4px;
+    
+}
+input[type=number], input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.container button:hover {
+    opacity: 0.8;
+}
+
+.container > h1 {
+    font-size: 20px;
+    white-space: nowrap;
+    text-align: center;
+    color:#000000 ;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
