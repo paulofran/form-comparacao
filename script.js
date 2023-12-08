@@ -5,7 +5,7 @@ var compareButton = document.querySelector(".container button");
         var numA = document.getElementById('numA').value;
         var numB = document.getElementById('numB').value;
 
-        if(numB > numA) {
+        if(parseFloat(numB) > parseFloat(numA)) {
             alert("O número " + numB + " é maior que o número " + numA + ".");
         } else if(numB < numA) {
             alert("O número " + numA + " é maior que o número " + numB + ".");
